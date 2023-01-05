@@ -173,7 +173,7 @@ main {
 }
 .resume-content {
     display: flex;
-    gap:24px ;
+    gap: 24px;
 }
 .resume-title {
     font-weight: 700;
@@ -194,12 +194,13 @@ main {
 }
 .ed-des {
     color: #757575;
-    width: 511px;
     font-size: 15px;
+    width: 511px;
 }
 .ed-det {
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 558px;
 
 }
 .summary {
@@ -208,3 +209,57 @@ main {
     text-align: center;
     
 }
+.cv-download {
+    margin-top: 50px;
+    text-align: center;
+}
+/* footer section */
+.footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    padding-top: 30px;
+}
+/* left wing of the footer */
+.freelancer {
+    width:500px;
+}
+.left-section {
+    margin-left: 230px;
+    margin-right:115px;
+}
+.lets-connect {
+    font-size:35px ;
+    font-weight: bold;
+    margin-bottom:20px ;
+}
+.term {
+    font-size: 16px;
+    width:526px;
+    margin-bottom: 30px;
+}
+.icons {
+    width:24px;
+    height: 24px;
+    margin-right: 24px;
+}
+.input-sec {
+    width: 431px;
+    height: 64px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    
+}
+.right-section {
+    margin-right: 230px;
+}
+.lets-massage {
+    font-size:35px ;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.massage {
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
