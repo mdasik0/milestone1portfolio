@@ -1,0 +1,128 @@
+*{
+    font-family: 'Open Sans', sans-serif; 
+    margin:0;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+/* navigation */
+.s {
+    color:orangered ;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    padding: 70px 150px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.my__name {
+    font-weight: bold;
+    font-size: 40px;
+}
+nav ul li {
+    list-style: none;  
+    margin-right: 45px;
+}
+.btn-primary {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 3px;
+    padding:18px 34px ;
+}
+.header {
+    background-color: #FFF8F3;
+    background-image: url(portfolio-resources/images/header_bg.png),url(portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left ;
+    background-size: auto, 90px;
+    margin-left: 10px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    margin:0px 150px;
+}
+.banner-img {
+    margin-left: 245px;
+}
+.intro-1 {
+    font-size: 45px;
+    margin-left: 5px;
+    line-height: 61px;
+    margin-bottom: 5px;
+}
+.intro-2 {
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.intro-description {
+    font-size: 18px;
+    line-height: 30px;
+    width: 585px;
+    margin-bottom: 20px ;
+}
+.btn-contact {
+    background-color: white;
+    color:orangered ;
+    font-weight: bold;
+    border:1px solid orangered;
+    padding: 18px 34px ;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-container {
+    margin-top: 130px;
+    background: #ecded4;
+    border-radius: 10px;
+    padding: 130px 150px;
+    background-image: linear-gradient(to bottom right, #fff1e7 , #ffe6d3);
+    text-align: center;
+    
+}
+.section-title {
+    font-size: 35px;
+    font-weight: 700; 
+    color: #181818;
+    line-height: 48px;
+    margin:0 auto;
+    margin-bottom: 30px ;
+}
+.my-info {
+    font-size: 18px;
+    line-height: 30px;
+    width:825px;
+    color:#757575 ;
+    margin-bottom: 30px;
+}
+.persona-info {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    
+}
+.info {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.value {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
