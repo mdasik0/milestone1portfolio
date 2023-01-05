@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Open Sans';
-    src: url(fonts/OpenSans-Regular.ttf);
+    src: url(fonts/openSans-Regular.ttf);
 }
 /* navigation */
 .s {
@@ -262,4 +262,5 @@ main {
     padding-left: 30px;
     margin-bottom: 24px;
 }
+
 
